@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Segundo Parcial</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobrenosotros">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+              </ul>
+        </nav>
+    </header>
+    
+    </div>
+    <!-- SECCION 1 -->
+    <div id="seccion_1">
+        <div class="seccion1_izq">
+            <img center src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/417ce94e-f601-4bf5-86df-1370e24610bb/snkrs-app-de-nike.png" svg style="width:100%; height:20vh;stroke-width: 3;" preserveAspectRatio="none" width="500" height="500" viewBox="0 0 400 200" fill="transparent" stroke="currentColor">
+                
+            </svg>
+        </div>
+        
+        <div class="seccion1_der_arr">
+            <div>
+                <img src="https://walashop.a.ssl.fastly.net/media/catalog/product/cache/9653284e54456fe97f4261e085b9d584/_/i/_images_nike_cz5356-002.jpg" width="80" height="80" align="left" ><br><br><a href="URL">https://www.nike.com/es/</a>
+            </div>
+        </div>
+        <div class="seccion1_der_aba">
+            <div>
+                <img src="https://n.nordstrommedia.com/id/sr3/8bf4d5a2-4711-4b16-9dea-a47e9b0bfcef.jpeg?h=365&w=240&dpr=2" width="80" height="80" align="left" ><br><br><a href="URL">https://www.nike.cl/</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- SECCION 2 -->
+    <div id="seccion_2">
+        <div class="text_seccion2_izq">
+            <br>
+            Nike, Inc.​ es una empresa multinacional estadounidense dedicada al diseño, desarrollo, fabricación y comercialización de equipamiento deportivo: balones, calzado, ropa, equipo, accesorios y otros artículos deportivos.
+        </div>
+        <div class="seccion2_der">
+            <div>
+                <br>
+                Iniciar Sesion<br>
+                <br>
+                <input id="nom" placeholder="Ingrese Usuario" width="200">
+                <br><br>
+                <button onclick="MandarNombre">Ingresar</button>
+            </div>
+        </div>
+        <div class="seccion2_izq">
+            <div>
+                <img center src="https://i.pinimg.com/474x/d7/52/45/d75245ef083eb6d380f4e37dd62994cb.jpg" width="100" height="100" align="center">
+                <br>Bienvenid@:
+            </div>
+            
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function convertirD(){
+            var n1=parseFloat(document.getElementById("va1").value);
+            var result=n1*6.91;
+
+            document.getElementById('res').value=result;
+        }
+        function convertirB(){
+            var n1=parseFloat(document.getElementById("va1").value);
+            var result=n1*6.91;
+
+            document.getElementById('result').value=result;
+        }
+        function MandarNombre(){
+            console.log(nom);
+            document.getElementById(Nomb).value=nom;
+        }
+
+    </script>
+
+
+    <!-- SECCION 3 -->
+    <div id="seccion_3">
+        <div class="text_seccion3_izq">
+            <br>
+            <img center src="https://c8.alamy.com/compes/2jf09rr/una-imagen-vertical-de-una-modelo-femenina-posando-en-la-calle-con-unas-sneakers-nike-azules-2jf09rr.jpg" width="350" height="800" align="center">
+            <br><input type="text" id="Nomb">
+
+        </div>
+        <div class="seccion3_der">
+            <div>
+                <br><br>
+                <br><br>
+                Fue en 1968 cuando Phil Knight funda la marca Nike, cuyo nombre se basaba en la diosa griega de la victoria «Niké». Pero no fue hasta 1971 cuando adoptó esta denominación. En sus 3 primeros años de existencia la marca se hacía llamar «Blue Ribbons Sports».
+            </div>
+        </div>
+        <div class="seccion3_izq">
+            <div>
+                <br>
+                <br>
+                Conversor $ a Bs y Bs a $
+                <br>
+                <select name="selectMonedas" id="selectMonedas" class="form-select">
+                    <option value="1">Bs a dolares</option>
+                    <option value="2">Dolares a Bs</option>
+                </select>
+                <br><br>
+                <input type="number" class="form-control" placeholder="Valor" id="convInput">
+                <br><br>
+                <b id="resultadoConver" style="font-size:20px"></b><br>
+                <button type="button" class="btn" style="float:right" onclick="convertir()">Convertir</button>
+                <br>
+            </div>
+                <div >
+                    <br><br>
+                    <br><br>
+                    <p >Trabajar en equipo nos permite experimentar nuevas oportunidades que nos ayudan a crecer y a ser destacados en diferentes ámbitos.</p>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+
+    <script src="javas.js"></script>
+</body>
+</html>

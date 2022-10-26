@@ -18,3 +18,11 @@ function convertir(){
     }
     document.getElementById('resultadoConver').innerHTML=titulo;
 }
+function login(){
+    var loginInput = document.getElementById('loginInput').value;
+    if(loginInput == ''){
+        alert("El nombre de usuario es requerido");
+    }else{
+        document.getElementById('loginUser').innerHTML= loginInput;
+    }
+}
